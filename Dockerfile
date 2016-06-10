@@ -1,4 +1,4 @@
-FROM rubyisbeautiful:docker-urbit-base
+FROM rubyisbeautiful/docker-urbit-base:latest
 
 MAINTAINER <rubyisbeautiful> bcptaylor@gmail.com
 
