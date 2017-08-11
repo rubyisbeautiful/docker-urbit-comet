@@ -1,8 +1,7 @@
 FROM rubyisbeautiful/docker-urbit-base:latest
 
-MAINTAINER <rubyisbeautiful> bcptaylor@gmail.com
+LABEL maintainer="<rubyisbeautiful> bcptaylor@gmail.com"
 
 ENV COMET mycomet
-VOLUME ${COMET}
 
-CMD bin/urbit -c ${COMET}
+CMD bin/urbit -c $COMET
