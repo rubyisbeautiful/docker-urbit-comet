@@ -1,13 +1,11 @@
 # docker-urbit-comet
-Launch a comet in Urbit in a Docker container
-Built on docker-urbit-base
 
-The default behavior is to use a volume named after the environment variable $COMET, with default value `mycomet`
- 
- So simply running:
- 
- `docker run -it rubyisbeautiful/docker-urbit-comet:latest`
- 
- You will get a running Urbit comet
- 
+Launch a comet in [Urbit](https://urbit.org)
+
+Built on [rubyisbeautiful/docker-urbit-base](https://hub.docker.com/r/rubyisbeautiful/docker-urbit-base/)
+
+## usage
+
+1. `docker run --rm -it rubyisbeautiful/docker-urbit-comet:latest`
+  
  
